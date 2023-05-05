@@ -1,0 +1,24 @@
+
+.gatent{
+    margin-top:40% ;
+}
+.club{
+    margin-top:40% ;
+}
+.gatentimg{
+    margin-left: 10%;
+    width: 100%;
+}
+
+@media screen and (max-width:720px) {
+    .gatent{
+        margin-top:0% ;
+    }
+    .gatentimg{
+        margin-left: 0%;
+        width: 100%;
+    }
+    .club{
+        margin-top:0% ;
+    }
+}

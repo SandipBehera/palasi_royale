@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/brigade-ctadel",
+            "outputPath": "dist/Polumi-Palazzo",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -27,9 +27,14 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/assets/assets/css/loader.css",
+              "src/assets/assets/css/style.css"
+              
+
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/assets/js/app.js"
+            ]
           },
           "configurations": {
             "production": {
