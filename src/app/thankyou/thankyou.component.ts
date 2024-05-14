@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { NavigationEnd, Router } from '@angular/router';
 
+declare var gtag:Function;
 @Component({
   selector: 'app-thankyou',
   templateUrl: './thankyou.component.html',
@@ -7,9 +9,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ThankyouComponent implements OnInit {
 
-  constructor() { }
+  constructor(public router:Router) { 
+    this.router.events.subscribe(event=>{
+      if(event instanceof NavigationEnd){
+        gtag('config', 'AW-401331995',{
+          'page_path':event.urlAfterRedirects
+        });
+      }
+    })
+  }
 
   ngOnInit(): void {
+    setTimeout(() => {
+      window.location.href = '/';
+    }, 2000);
   }
 
 }

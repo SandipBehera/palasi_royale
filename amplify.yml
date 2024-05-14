@@ -8,9 +8,9 @@ frontend:
       commands:
         - npm run build
   artifacts:
-    baseDirectory: dist/Polumi-Palazzo
+    baseDirectory: dist/skyline
     files:
-      - '**/*'
+      - "**/*"
   cache:
     paths:
       - node_modules/**/*
