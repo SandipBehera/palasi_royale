@@ -217,7 +217,7 @@ h2,
     .elementor-section.elementor-section-height-full {
       height: 100vh;
       background-color: #f6f6f6;
-      background-image: url("../../assets/img/skyline/banner-slider.png");
+      background-image: url("../../assets/img/royal/gal8.png");
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -229,12 +229,12 @@ h2,
   }
   @media (max-width: 768px) {
     .elementor-section.elementor-section-height-full {
-      background-color: #f6f6f6;
-      background-image: url("../../assets/img/skyline/banner-slider.png");
+      background-color: #141414;
+      background-image: url("../../assets/img/royal/gal8.png");
       background-repeat: no-repeat;
       background-size: cover;
       background-position: top center;
-      background-size: 430px auto;
+      background-size: 301px auto;
       padding: 100px 0px 30px 0px;
     }
     .elementor-section.elementor-section-height-full > .elementor-container {
@@ -696,5 +696,19 @@ h2,
   .floating-btn {
     right: -34%;
     top: 48%;
+  }
+}
+.overview-section{
+  height: 50vw !important;
+}
+.mobile-none{
+  display: block;
+}
+@media(max-width:760px){
+  .overview-section{
+    height: auto !important;
+  }
+  .mobile-none{
+    display: none;
   }
 }

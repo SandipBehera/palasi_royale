@@ -15,7 +15,7 @@ export class MainPageComponent implements OnInit {
   public myForm: FormGroup | any;
   ipAddress: any;
   // IpAddress: any = this.getIp();
-  @Input() user: User = { name: '', email: '', phone: '', url: 'skyline' };
+  @Input() user: User = { name: '', email: '', phone: '', url: 'palasi royal' };
   constructor(
     private element: ElementRef,
     private formbuilder: FormBuilder,
