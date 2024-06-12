@@ -10,7 +10,7 @@
 }
 .section-back {
   background-color: #f6f6f6;
-  background-image: url("../../assets/img/skyline/banner-slider.png");
+  background-image: url("../../assets/img/royal/banner.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -335,7 +335,7 @@ h2,
       .elementor-motion-effects-element-type-background
     ) {
     background-color: #f6f6f6;
-    background-image: url("../../assets/img/skyline/banner-slider.png");
+    background-image: url("../../assets/img/royal/gal8.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
