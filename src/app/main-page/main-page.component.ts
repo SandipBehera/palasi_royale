@@ -14,7 +14,7 @@ import { UserService } from '../user_service/UserService';
 export class MainPageComponent implements OnInit {
   public myForm: FormGroup | any;
   ipAddress: any;
-  // IpAddress: any = this.getIp();
+  IpAddress: any = this.getIp();
   @Input() user: User = { name: '', email: '', phone: '', url: 'palasi royal' };
   constructor(
     private element: ElementRef,
