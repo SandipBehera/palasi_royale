@@ -44,13 +44,13 @@ export class MainPageComponent implements OnInit {
       ],
     });
   }
-  // getIp(): void {
-  //   this.http
-  //     .get('https://www.keyonprop.com/api/getIp')
-  //     .subscribe((res: any) => {
-  //       return (this.ipAddress = res.message);
-  //     });
-  // }
+  getIp(): void {
+    this.http
+      .get('https://app.keyonprop.com/api/getIp')
+      .subscribe((res: any) => {
+        return (this.ipAddress = res.message);
+      });
+  }
   OnSave(): void {
     this.userService.formSubmit(this.user).subscribe(() => this.goBack());
   }
